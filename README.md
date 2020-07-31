@@ -5,8 +5,13 @@
 ## Build Setup
 
 ``` bash
-!Important: please create an empty file called "static" and a js file called ".postcssrc" and paste following page to setting under address_book file
-reference: https://blog.csdn.net/qq_41831345/article/details/80636053
+!Important to set up: 
+Step 1: 
+  After download, create an empty file called "static" under address_book file.
+  
+Step 2:
+  Create a js file called ".postcssrc" under address_book file and follow the following page to setting.
+  reference: https://blog.csdn.net/qq_41831345/article/details/80636053
 
 # install dependencies
 npm install
