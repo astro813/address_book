@@ -1,6 +1,6 @@
 # address_book
 
-> A simple address book
+> A simple address book using the VUE.js and Element-UI
 
 ## Build Setup
 
