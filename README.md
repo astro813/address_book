@@ -10,9 +10,14 @@
     After download, create an empty file called "static" under address_book file.
 
   Step 2:
-    Create a js file called ".postcssrc" under address_book file and follow the following page to setting.
-    reference: https://blog.csdn.net/qq_41831345/article/details/80636053
-
+    Create a js file called ".postcssrc" under address_book file and add following code inside.
+    ```
+      module.exports = {  
+          plugins: {  
+            'autoprefixer': {browsers: 'last 5 version'}  
+          }  
+        }
+    ```
 # install dependencies
 npm install
 
